@@ -10,7 +10,7 @@ nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-with open(r'C:\Users\HP\Desktop\stra\text.txt', 'r', encoding='utf-8') as f:
+with open(r'text.txt', 'r', encoding='utf-8') as f:
     data = f.read().replace('\n', ' ')
 
 sentences = sent_tokenize(data)
